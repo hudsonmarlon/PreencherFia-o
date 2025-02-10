@@ -1,0 +1,80 @@
+﻿<Window x:Class="PreencherFiacao.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PREENCHER PARÂMETROS DE FIAÇÃO v1.0"
+        Height="630" Width="400"
+        WindowStartupLocation="CenterScreen"
+        Background="White" 
+        MinWidth="400" MaxWidth="400" 
+        MinHeight="630" MaxHeight="630">
+
+    <Grid Margin="0,0,0,20" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400" Height="574">
+
+        <!-- Título -->
+        <TextBlock Text="PREENCHER PARÂMETRO DE FIAÇÃO"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Left"
+                   Foreground="White"
+                   Background="#4CAF50"
+                   Padding="10,5"
+                   TextAlignment="Center" 
+                   Margin="0,0,0,506" 
+                   Width="400" 
+                   Grid.ColumnSpan="5" 
+                   Height="44" 
+                   VerticalAlignment="Bottom"/>
+
+        <!-- Logotipo MRV -->
+        <StackPanel Grid.ColumnSpan="5" Margin="0,73,10,302">
+            <Image RenderTransformOrigin="0.5,0.596" Source="/PreencherFiação;component/View/Image2.png" Margin="0,14,0,29" Height="154" Width="365" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        </StackPanel>
+
+        <!-- Botões -->
+        <StackPanel Margin="10,249,10,143">
+            <Button x:Name="CriarConduiteButton" 
+                    Content="TRAÇAR ELETRODUTOS AUTOMATICOS" 
+                    Background="#4CAF50" 
+                    Foreground="White" 
+                    FontWeight="Bold" 
+                    Padding="10" 
+                    Click="CriarConduites_Click" Width="370"/>
+
+            <Button x:Name="CalculateRouteButton" 
+                    Content="CALCULAR ROTA DOS CIRCUITOS" 
+                    Background="#4CAF50" 
+                    Foreground="White" 
+                    FontWeight="Bold" 
+                    Padding="10" 
+                    Margin="5" 
+                    Click="CalculateRouteButton_Click"/>
+
+            <Button x:Name="FillWireButton" 
+                    Content="PREENCHER PARÂMETROS DE FIAÇÃO" 
+                    Background="#4CAF50" 
+                    Foreground="White" 
+                    FontWeight="Bold" 
+                    Padding="10" 
+                    Margin="5" 
+                    Height="37.96" 
+                    Click="PreencherParametrosFiacao_Click"/>
+        </StackPanel>
+
+        <!-- Botão de Cancelar -->
+        <Button x:Name="CancelButton" 
+                Content="CANCELAR" 
+                Background="DarkOrange" 
+                Foreground="White" 
+                FontWeight="Bold" 
+                HorizontalAlignment="Right" 
+                Margin="0,459,20,0" 
+                Padding="10,5" 
+                Width="100" 
+                Grid.Column="3" 
+                Height="45" 
+                VerticalAlignment="Top" 
+                Grid.ColumnSpan="2" 
+                Click="CancelButton_Click"/>
+
+    </Grid>
+</Window>

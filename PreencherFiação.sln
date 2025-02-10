@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreencherFiacao", "PreencherFiação\PreencherFiacao.csproj", "{49E24B06-9606-4A85-9393-DA13CB4A0041}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		x64|Any CPU = x64|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49E24B06-9606-4A85-9393-DA13CB4A0041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E24B06-9606-4A85-9393-DA13CB4A0041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E24B06-9606-4A85-9393-DA13CB4A0041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E24B06-9606-4A85-9393-DA13CB4A0041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E24B06-9606-4A85-9393-DA13CB4A0041}.x64|Any CPU.ActiveCfg = x64|Any CPU
+		{49E24B06-9606-4A85-9393-DA13CB4A0041}.x64|Any CPU.Build.0 = x64|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
